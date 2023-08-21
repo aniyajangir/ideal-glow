@@ -1,0 +1,78 @@
+<!-- Schedule an Appointment MODAL -->
+<div class="modal fade" id="quoteForm" tabindex="-1" role="dialog" aria-labelledby="quoteForm" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content p-md-3">
+      <div class="modal-header border-0">
+        <h4 class="modal-title">Book an <span class="text-primary">Appointment</span></h4>
+        <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="https://formsubmit.co/f0a548d52a08a5643f5c549a2bca6dee" method="POST">
+          <!-- Honey Pot -->
+          <input type="text" name="_honey" style="display:none">
+          <!-- Disable Captcha -->
+          <input type="hidden" name="_captcha" value="false">
+          <!-- Success Page -->
+          <input type="hidden" name="_next" value="https://idealglow.in/">
+          <div class="row gy-3">
+            <div class="col-lg-6">
+              <label class="form-label text-sm" for="firstname">First name<span
+                  class="text-primary ms-1">&#42;</span></label>
+              <input class="form-control" id="firstname" name="firstname" type="text"
+                placeholder="Enter your first name" required>
+            </div>
+            <div class="col-lg-6">
+              <label class="form-label text-sm" for="lastname">Last name<span
+                  class="text-primary ms-1">&#42;</span></label>
+              <input class="form-control" id="lastname" name="lastname" type="text" placeholder="Enter your last name"
+                required>
+            </div>
+            <div class="col-lg-12">
+              <label class="form-label text-sm" for="email">Email address<span
+                  class="text-primary ms-1">&#42;</span></label>
+              <input class="form-control" id="email" name="email" type="email" placeholder="Enter your email address"
+                required>
+            </div>
+            <div class="col-lg-6">
+              <label class="form-label text-sm" for="phone">Phone number <span
+                  class="text-primary ms-1">&#42;</span></label>
+              <input class="form-control" id="phone" name="phone" type="tel" placeholder="Enter your phone number"
+                required>
+            </div>
+            <div class="col-lg-6">
+              <label class="form-label text-sm" for="Treatment type">Treatment type<span
+                  class="text-primary ms-1">&#42;</span></label>
+              <select class="form-control form-select" aria-label="Default select example">
+                <option selected>Open this select menu</option>
+                <option value="Skin">Skin</option>
+                <option value="Hair">Hair</option>
+                <option value="Laser">Laser</option>
+                <option value="Beauty">Beauty</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <div class="col-lg-6">
+              <label class="form-label text-sm" for="budget">Appointment Date<span
+                  class="text-primary ms-1">&#42;</span></label>
+              <input class="form-control" id="budget" name="appointmentDate" type="date"
+                placeholder="Select Appointment Date" required><small class="form-text text-gray-500 ms-3"></small>
+            </div>
+            <div class="col-lg-6">
+              <label class="form-label text-sm" for="timeframe">Preffered Timing</label>
+              <input class="form-control" id="timeframe" name="timing" type="time"
+                placeholder="Maximum time for the project">
+            </div>
+            <div class="col-lg-12">
+              <label class="form-label text-sm" for="Details">Details</label>
+              <textarea class="form-control" id="details" name="Details" rows="5"
+                placeholder="Provide a short brief"></textarea>
+            </div>
+            <div class="col-lg-12">
+              <button class="btn btn-primary" type="submit">Submit your request</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

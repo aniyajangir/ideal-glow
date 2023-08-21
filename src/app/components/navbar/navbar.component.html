@@ -1,0 +1,41 @@
+<!-- NAVBAR-->
+<header class="header header-animated">
+  <nav class="navbar navbar-expand-lg navbar-light py-3">
+    <div class="container"><a class="navbar-brand" href="index.html"><img style="width: 30px; height: 45px;"
+          src="assets/img/logo-idealglow.png" alt="..." width="80"></a>
+      <button class="navbar-toggler navbar-toggler-end" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse text-uppercase navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <!-- Link--><a class="nav-link active" routerLink="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <!-- Link--><a class="nav-link" routerLink="/about">About us</a>
+          </li>
+          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="#"
+              data-bs-toggle="dropdown" aria-haspopup="true">Services</a>
+            <div class="dropdown-menu mt-3" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" routerLink="/services/skin">Skin</a>
+                <a class="dropdown-item" routerLink="/services/hair">Hair</a>
+                <a class="dropdown-item" routerLink="/services/laser">Laser</a>
+                <a class="dropdown-item" routerLink="/services/semi">Semi Permanant</a>
+                <a class="dropdown-item" routerLink="/services/packages">Packages</a>
+            </div>
+                
+          </li>
+          <li class="nav-item me-2">
+            <!-- Link--><a class="nav-link" routerLink="/contact">Contact us</a>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-primary" type="button" data-bs-target="#quoteForm"
+              data-bs-toggle="modal">Appointment</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<app-appointment></app-appointment>

@@ -1,0 +1,42 @@
+.menu-large {
+    position: static !important;
+  }
+  @media (min-width: 992px) {
+    .menu-large .megamenu {
+      width: 100%;
+      max-width: 1320px;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-top: -1px;
+    }
+  }
+
+  .nav-link-sub {
+    color: #878787;
+    text-decoration: none;
+    transition: all 0.3s;
+    display: block;
+    border-bottom: 1px solid #eee;
+    font-size: 0.75rem;
+    color: white;
+  }
+  .nav-link-sub:hover, .nav-link-sub:focus {
+    color: #4fbfa8;
+    transform: translateX(0.3rem);
+    text-decoration: none;
+  }
+  .nav-link-sub.active {
+    color: #4fbfa8;
+  }
+  
+  .make-sticky.is-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .dropdown-submenu .dropdown-menu {
+    top: 0 !important;
+    left: 100%;
+  }
