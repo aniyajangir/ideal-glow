@@ -24,6 +24,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { PackagesComponent } from './components/all-services/packages/packages.component';
 import { PackageComponent } from './components/package/package.component';
 import { SuccessComponent } from './components/success/success.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +49,7 @@ import { SuccessComponent } from './components/success/success.component';
     PackagesComponent,
     PackageComponent,
     SuccessComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
