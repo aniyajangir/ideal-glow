@@ -2953,7 +2953,7 @@ textarea.form-control-lg {
 }
 
 .form-check-input:checked {
-  background-color: #3bcd98;
+ background: linear-gradient(120deg, #9D338B, #0F90D2);
   border-color: #3bcd98;
 }
 
@@ -2966,7 +2966,7 @@ textarea.form-control-lg {
 }
 
 .form-check-input[type="checkbox"]:indeterminate {
-  background-color: #3bcd98;
+ background: linear-gradient(120deg, #9D338B, #0F90D2);
   border-color: #3bcd98;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e");
 }
@@ -3065,7 +3065,7 @@ textarea.form-control-lg {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #3bcd98;
+ background: linear-gradient(120deg, #9D338B, #0F90D2);
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3098,7 +3098,7 @@ textarea.form-control-lg {
 .form-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #3bcd98;
+ background: linear-gradient(120deg, #9D338B, #0F90D2);
   border: 0;
   border-radius: 1rem;
   -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3538,7 +3538,7 @@ fieldset:disabled .btn {
 
 .btn-primary {
   color: #212529;
-  background-color: #3bcd98;
+ background: linear-gradient(120deg, #9D338B, #0F90D2);
   border-color: #3bcd98;
 }
 
@@ -3571,7 +3571,7 @@ fieldset:disabled .btn {
 
 .btn-primary:disabled, .btn-primary.disabled {
   color: #212529;
-  background-color: #3bcd98;
+ background: linear-gradient(120deg, #9D338B, #0F90D2);
   border-color: #3bcd98;
 }
 
@@ -3855,7 +3855,7 @@ fieldset:disabled .btn {
 
 .btn-outline-primary:hover {
   color: #212529;
-  background-color: #3bcd98;
+ background: linear-gradient(120deg, #9D338B, #0F90D2);
   border-color: #3bcd98;
 }
 
@@ -3866,7 +3866,7 @@ fieldset:disabled .btn {
 .btn-check:checked + .btn-outline-primary,
 .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
   color: #212529;
-  background-color: #3bcd98;
+ background: linear-gradient(120deg, #9D338B, #0F90D2);
   border-color: #3bcd98;
 }
 
@@ -4209,7 +4209,7 @@ fieldset:disabled .btn {
   color: #212529;
   text-align: left;
   list-style: none;
-  background-color: #3bcd98;
+ background: linear-gradient(120deg, #9D338B, #0F90D2);
   background-clip: padding-box;
   border: 1px solid transparent;
   border-radius: 0.25rem;
@@ -4439,7 +4439,7 @@ fieldset:disabled .btn {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #3bcd98;
+ background: linear-gradient(120deg, #9D338B, #0F90D2);
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -4484,7 +4484,7 @@ fieldset:disabled .btn {
 
 .dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
   color: #fff;
-  background-color: #3bcd98;
+ background: linear-gradient(120deg, #9D338B, #0F90D2);
 }
 
 .dropdown-menu-dark .dropdown-item.disabled, .dropdown-menu-dark .dropdown-item:disabled {
@@ -4690,7 +4690,7 @@ fieldset:disabled .btn {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #3bcd98;
+ background: linear-gradient(120deg, #9D338B, #0F90D2);
 }
 
 .nav-fill > .nav-link,
@@ -5593,7 +5593,7 @@ fieldset:disabled .btn {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #3bcd98;
+ background: linear-gradient(120deg, #9D338B, #0F90D2);
   border-color: #3bcd98;
 }
 
@@ -5807,7 +5807,7 @@ fieldset:disabled .btn {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #3bcd98;
+ background: linear-gradient(120deg, #9D338B, #0F90D2);
   transition: width 0.6s ease;
 }
 
@@ -5899,7 +5899,7 @@ fieldset:disabled .btn {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #3bcd98;
+  background: linear-gradient(120deg, #9D338B, #0F90D2);
   border-color: #3bcd98;
 }
 
