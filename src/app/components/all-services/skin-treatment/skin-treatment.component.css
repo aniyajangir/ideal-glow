@@ -2,7 +2,7 @@
 .card {
     /* max-width: 50em; */
     flex-direction: row;
-    background-color:#3bcd98 ;
+    background: linear-gradient(120deg, #9D338B, #0F90D2);
     border: 0;
     box-shadow: 0 7px 7px rgba(0, 0, 0, 0.18);
     margin: 3em auto;
